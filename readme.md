@@ -10,12 +10,12 @@ Prerequisites:
 
 Installation:
 ============
-git clone 
-cd flipkart-scraper
+1) git clone 
+2) cd flipkart-scraper
 
 Usage:
 =====
-python3 scrape-products.py
-Enter a query: dell laptops
+1) python3 scrape-products.py
+2) Enter a query: dell laptops
 
 
