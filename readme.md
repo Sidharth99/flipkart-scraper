@@ -1,6 +1,6 @@
 Flipkart Scraper
 ===============
-This is a simple flipkart scraper developed in python.It scrapes data and dumps it into result.json file.
+This is a simple flipkart scraper developed in python.It scrapes data and dumps it into json file and also writes it to csv file.
 
 Prerequisites:
 ==============
@@ -17,5 +17,3 @@ Usage:
 =====
 1) python3 scrape-products.py
 2) Enter a query: dell laptops
-
-
