@@ -11,5 +11,5 @@ j = data.contents[0].strip()
 j = j.replace("window.__INITIAL_STATE__ = ","").replace(";","")
 y = json.loads(j)
 y = y["seoMeta"]["answerBox"]["data"]["renderableComponents"][0]["value"]["data"]
-with open('result2.json', 'w') as fp:
+with open('result.json', 'w') as fp:
      json.dump(y, fp)
